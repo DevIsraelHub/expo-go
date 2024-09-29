@@ -2,10 +2,10 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import ColorList from "@/components/ColorList"
 
-export default function Home() {
+export default function Bike() {
   return (
-    <View style={{ backgroundColor: "#fff" }}>
-      <ColorList color="#0891b2" />
+    <View>
+      <ColorList color="#78716c" />
     </View>
   )
 }
